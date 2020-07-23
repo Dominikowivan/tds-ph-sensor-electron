@@ -88,7 +88,7 @@ El pin Po se conecta a la entrada (A0) del arduino.
 Fuente: https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244
 
 El sensor de TDS tiene 3 pines:
-- + : Alimentacion (5V)
+- "+" : Alimentacion (5V)
 - "-" : Tierra
 - A : Valor de Phh en V
 
@@ -137,9 +137,34 @@ SCL va conectado en la entrada (A5) del arduino.
 
 # Materiales Utilizados
 
+<p align="center">
+  <img src="images/arduinoUNO.jpg" />
+</p>
+
 - Placa Arduino UNO
+
+<p align="center">
+  <img src="images/protoboard.jpeg" />
+</p>
+
 - 1 Protoboard 830 puntos
+
+
+<p align="center">
+  <img src="images/lcd.jpg" />
+</p>
+
 - 1 Display LCD 1602
+
+<p align="center">
+  <img src="images/ph-sensor.jpg" />
+</p>
+
 - logo_phsensor v1.1
 - PH Electrode E201-BNC
+
+<p align="center">
+  <img src="images/SEN0244-family.jpg" />
+</p>
+
 - TDS Meter v1.0 DFRobot
