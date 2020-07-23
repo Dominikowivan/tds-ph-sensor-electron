@@ -2,7 +2,6 @@
   <img src="images/ArduinoCommunityLogo.png" />
 </p>
 
-
 # Intro
 
 Este es un proyecto de arduino que brinda dos soluciones distintas para poder utilizar y sensar PH y TDS en el agua.
@@ -13,6 +12,10 @@ La segunda es con  la utilizacion de Johnny-five y electron como container web, 
 
 
 # Motivacion
+
+<p align="center">
+  <img src="images/orquideas.jpg" />
+</p>
 
 En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que reciden.
 
@@ -26,7 +29,7 @@ Para este tipo de plantas, si uno desea criarlas fuera  su habitat natural, es i
 El pH (pondus Hydrogenii) indica la acidez o alcalinidad de una solución liquida. El valor del pH varía, por norma general, entre 0 y 14. Una solución con un valor de pH de 0 a 7 es ácida y una con un valor de 7 a 14 es alcalina. 
 
 <p align="center">
-  <img src="escalaPh" />
+  <img src="images/escala-ph.jpg" />
 </p>
 
 La acidez influye substancialmente en la capacidad de absorción y solubilidad de numerosos elementos nutritivos. No solo eso,  El pH también repercute en el modo en que los elementos nutritivos, metales pesados y pesticidas son eliminados del suelo.
@@ -37,6 +40,10 @@ La acidez influye substancialmente en la capacidad de absorción y solubilidad d
 Los sólidos totales disueltos, también conocidos como TDS, son compuestos inorgánicos que se encuentran en el agua, como sales, metales pesados ​​y algunos rastros de compuestos orgánicos que se disuelven en el agua. Es decir, la cantidad de nutrientes en una solucion liquida.
 
 PPM o Partes Por Millón es la unidad que se utiliza para medir el TDS.
+
+<p align="center">
+  <img src="images/tabla-tds-agua.jpg" />
+</p>
 
 Ahora, por que es importante tener en cuenta esta magnitud para las plantas?
 
