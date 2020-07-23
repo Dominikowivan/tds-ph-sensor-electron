@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Arduino" />
+  <img src="images/ArduinoCommunityLogo.png" />
 </p>
 
 
@@ -54,6 +54,10 @@ Si el PPM es mas bajo del ideal para ese tipo de planta, no va a tener suficient
 
 # Arduino Coneccion
 
+<p align="center">
+  <img src="images/connecciones.jpg" />
+</p>
+
 ## Sensor de PH 
 
 Fuente: https://scidle.com/es/como-usar-un-sensor-de-ph-con-arduino/
@@ -105,7 +109,7 @@ SCL va conectado en la entrada (A5) del arduino.
 
 ## Con pantalla LCD
 
-- Abrir el IDE de Arduino e importar el archivo "arduinoPHSensorLCD.ino"
+- Abrir el IDE de Arduino e importar el archivo "ArduinoPhMeterSerial.ino"
 - Descargar Libreria de LiquidCrystal_I2C: https://codeload.github.com/marcoschwartz/LiquidCrystal_I2C/zip/master
 - Descargar libreria de GravityTDS: https://codeload.github.com/DFRobot/GravityTDS/zip/master
 - Instalar ambas librerias: https://www.arduino.cc/en/Guide/Libraries#.UxU8mdzF9H0
