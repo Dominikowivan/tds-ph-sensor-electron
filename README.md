@@ -45,14 +45,14 @@ Si el PPM es mas bajo del ideal para ese tipo de planta, no va a tener suficient
 
 
 
-##Fuentes:
+## Fuentes
 - https://maherelectronica.com/que-es-el-ph-del-agua/#:~:text=El%20pH%20del%20agua%20nos,considerada%20como%20la%20medida%20neutra.
 - http://www.canna.es/importancia_acidez_del_ph_para_tus_plantas
 - https://aguapuraysana.com/tds-que-importancia-tiene-y-como-medirlo/
 - https://www.groho.es/post/ph-y-el-tds-afectan-la-calidad-del-agua
 
 
-# Arduino Coneccion:
+# Arduino Coneccion
 
 ## Sensor de PH 
 
@@ -103,17 +103,19 @@ SCL va conectado en la entrada (A5) del arduino.
 
 # Instalacion
 
-## Con pantalla LCD:
-1 - Abrir el IDE de Arduino e importar el archivo "arduinoPHSensorLCD.ino"
-2 - Descargar Libreria de LiquidCrystal_I2C: https://codeload.github.com/marcoschwartz/LiquidCrystal_I2C/zip/master
-3 - Descargar libreria de GravityTDS: https://codeload.github.com/DFRobot/GravityTDS/zip/master
-4 - Instalar ambas librerias: https://www.arduino.cc/en/Guide/Libraries#.UxU8mdzF9H0
-5 - Hacer click en el boton de "Upload" en el IDE de arduino.
+## Con pantalla LCD
 
-## Con Cliente Web:
-1 - Abrir el IDE de Arduino y subir FirmataStandard como programa al firmware. Para ello Ir a: File> Examples > Firmata > StandardFirmata
-2 - Una vez con Firmata subido en el arduino, Correr el comando **npm install** parado sobre la carpeta donde se haya descargado el repositorio
-3 - Una vez instaladas las dependencias, correr la aplicacion con  **npm start** 
+- Abrir el IDE de Arduino e importar el archivo "arduinoPHSensorLCD.ino"
+- Descargar Libreria de LiquidCrystal_I2C: https://codeload.github.com/marcoschwartz/LiquidCrystal_I2C/zip/master
+- Descargar libreria de GravityTDS: https://codeload.github.com/DFRobot/GravityTDS/zip/master
+- Instalar ambas librerias: https://www.arduino.cc/en/Guide/Libraries#.UxU8mdzF9H0
+- Hacer click en el boton de "Upload" en el IDE de arduino.
+
+## Con Cliente Web
+
+- Abrir el IDE de Arduino y subir FirmataStandard como programa al firmware. Para ello Ir a: File> Examples > Firmata > StandardFirmata
+- Una vez con Firmata subido en el arduino, Correr el comando **npm install** parado sobre la carpeta donde se haya descargado el repositorio
+- Una vez instaladas las dependencias, correr la aplicacion con  **npm start** 
 
 
 # Posibles Mejoras a futuro y sugerencias
@@ -122,7 +124,7 @@ SCL va conectado en la entrada (A5) del arduino.
 - Poder Prender o apagar la salida de cualquiera de los dos sensores para que no entren en conflicto si se utilizan en el mismo liquido.
 
 
-# Materiales Utilizados:
+# Materiales Utilizados
 
 - Placa Arduino UNO
 - 1 Protoboard 830 puntos
