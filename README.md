@@ -3,7 +3,7 @@
 </p>
 
 
-## Intro
+# Intro
 
 Este es un proyecto de arduino que brinda dos soluciones distintas para poder utilizar y sensar PH y TDS en el agua.
 
@@ -12,7 +12,7 @@ La primera solucion utiliza solo codigo C que es grabado en el firmware del ardu
 La segunda es con  la utilizacion de Johnny-five y electron como container web, lo cual permite poder sensar y ver el resultado del senso en una aplicacion desktop.
 
 
-## Motivacion
+# Motivacion
 
 En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que reciden.
 
@@ -44,9 +44,17 @@ Por que si el PPM encontrado en el agua que le subministramos a las plantas es e
 Si el PPM es mas bajo del ideal para ese tipo de planta, no va a tener suficientes minerales para poder crecer de forma optima.
 
 
-## Arduino Coneccion:
 
-# Sensor de PH 
+##Fuentes:
+- https://maherelectronica.com/que-es-el-ph-del-agua/#:~:text=El%20pH%20del%20agua%20nos,considerada%20como%20la%20medida%20neutra.
+- http://www.canna.es/importancia_acidez_del_ph_para_tus_plantas
+- https://aguapuraysana.com/tds-que-importancia-tiene-y-como-medirlo/
+- https://www.groho.es/post/ph-y-el-tds-afectan-la-calidad-del-agua
+
+
+# Arduino Coneccion:
+
+## Sensor de PH 
 
 Fuente: https://scidle.com/es/como-usar-un-sensor-de-ph-con-arduino/
 
@@ -64,7 +72,7 @@ El Pin V+ Se conecta al 5V del arduino.
 Los dos pin G se conectan a cualquier GND del arduino.
 El pin Po se conecta a la entrada (A0) del arduino.
 
-# Sensor de TDS
+## Sensor de TDS
 
 Fuente: https://wiki.dfrobot.com/Gravity__Analog_TDS_Sensor___Meter_For_Arduino_SKU__SEN0244
 
@@ -77,7 +85,7 @@ La alimentacion "+" va al 5V del arduino.
 El pin de "-" va a cualquier GND del arduino.
 El pin "A" va a la entrada (A1)  del arduino.
 
-# Pantalla LCD
+## Pantalla LCD
 
 Fuente: https://www.naylampmechatronics.com/blog/35_Tutorial--LCD-con-I2C-controla-un-LCD-con-so.html
 
@@ -93,28 +101,28 @@ VCC va a la alimentacion 5V del arduino.
 SDA va conectado en la entrada (A4) del arduino.
 SCL va conectado en la entrada (A5) del arduino.
 
-## Instalacion
+# Instalacion
 
-# Con pantalla LCD:
+## Con pantalla LCD:
 1 - Abrir el IDE de Arduino e importar el archivo "arduinoPHSensorLCD.ino"
 2 - Descargar Libreria de LiquidCrystal_I2C: https://codeload.github.com/marcoschwartz/LiquidCrystal_I2C/zip/master
 3 - Descargar libreria de GravityTDS: https://codeload.github.com/DFRobot/GravityTDS/zip/master
 4 - Instalar ambas librerias: https://www.arduino.cc/en/Guide/Libraries#.UxU8mdzF9H0
 5 - Hacer click en el boton de "Upload" en el IDE de arduino.
 
-# Con Cliente Web:
+## Con Cliente Web:
 1 - Abrir el IDE de Arduino y subir FirmataStandard como programa al firmware. Para ello Ir a: File> Examples > Firmata > StandardFirmata
 2 - Una vez con Firmata subido en el arduino, Correr el comando **npm install** parado sobre la carpeta donde se haya descargado el repositorio
 3 - Una vez instaladas las dependencias, correr la aplicacion con  **npm start** 
 
 
-## Posibles Mejoras a futuro y sugerencias
+# Posibles Mejoras a futuro y sugerencias
 
 - Idealmente un paso mas adelante seria tambien la uitlizacion de React en el cliente web.
 - Poder Prender o apagar la salida de cualquiera de los dos sensores para que no entren en conflicto si se utilizan en el mismo liquido.
 
 
-## Materiales Utilizados:
+# Materiales Utilizados:
 
 - Placa Arduino UNO
 - 1 Protoboard 830 puntos
@@ -122,18 +130,3 @@ SCL va conectado en la entrada (A5) del arduino.
 - logo_phsensor v1.1
 - PH Electrode E201-BNC
 - TDS Meter v1.0 DFRobot
-
-Fuentes:
-https://maherelectronica.com/que-es-el-ph-del-agua/#:~:text=El%20pH%20del%20agua%20nos,considerada%20como%20la%20medida%20neutra.
-http://www.canna.es/importancia_acidez_del_ph_para_tus_plantas
-https://aguapuraysana.com/tds-que-importancia-tiene-y-como-medirlo/
-https://www.groho.es/post/ph-y-el-tds-afectan-la-calidad-del-agua
-
-
-
-## Consideraciones
-- Se entregará utilizando git. El grupo deberá subir el código del TP a github, hacer un tag y notificarnos de dicho tag para que podamos corregirlo. [Acá](https://sites.google.com/site/estrategiasdepersistencia/material/entregando-con-git) tienen un breve tutorial sobre como hacerlo.
-- Se considerará a un TP como entregado solo cuando tenga implementada toda la funcionalidad que se pide para la entrega.
-- Se evaluará no solo que el TP cumpla con todos los requisitos, sino la calidad del mismo (buen diseño, simplicidad, buena distribución de responsabilidades, prolijidad del código, código no repetido, formalidad en la entrega, etc)
-- La idea del TP es que trabajen sobre todo en clase, pero eso no resta que para llegar a cumplir con los tiempos de entrega tengan que trabajar en casa. ¡Planeen conforme a ello! Un TP no entregado a tiempo es un TP reentregado. **Solo cuentan con 3 reentregas durante la cursada.**
-- Si algo no les funciona o algo no entienden, avisen antes! En el día de la entrega ya es demasiado tarde.
