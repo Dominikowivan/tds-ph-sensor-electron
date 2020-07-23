@@ -18,7 +18,7 @@ La segunda es con  la utilización de Johnny-five y electron como container web,
 
 En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que residen.
 
-Las orquídeas, para poner un ejemplo, son plantas que en la naturaleza acostumbran a crecer sobre materia orgánica originada por los restos de otras plantas o organismos. Este tipo de materia orgánica es altamente ácida, y las orquídeas evolucionaron para que sus raíces puedan crecer de la forma más plena y efectiva en este medio.
+Para poner un ejemplo, Las orquídeas son plantas que en la naturaleza acostumbran a crecer sobre materia orgánica originada por los restos de otras plantas o organismos. Este tipo de materia orgánica es altamente ácida, y las orquídeas evolucionaron para que sus raíces puedan crecer de la forma más plena y efectiva en este medio.
 
 Para este tipo de plantas, si uno desea criarlas fuera  su hábitat natural, es imperativo poder reproducir o por lo menos simular el hábitat en el cual es natural para ellas crecer y florecer, para ello, dos de los factores más importantes que hay que tener en cuenta en el agua que le brindamos a estas plantas son el grado de acidez o alcalinidad (pH le vamos a decir de ahora en más)  y su grado de mineralización  (TDS).
 
