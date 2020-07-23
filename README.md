@@ -18,9 +18,9 @@ La segunda es con  la utilización de Johnny-five y electron como container web,
 
 En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que residen.
 
-Para poner un ejemplo, Las orquídeas son plantas que en la naturaleza acostumbran a crecer sobre materia orgánica originada por los restos de otras plantas o organismos. Este tipo de materia orgánica es altamente ácida, y las orquídeas evolucionaron para que sus raíces puedan crecer de la forma más plena y efectiva en este medio.
+Para poner un ejemplo, las orquídeas son plantas que en la naturaleza acostumbran a crecer sobre materia orgánica originada por los restos de otras plantas o organismos. Este tipo de materia orgánica es ácida, y las orquídeas evolucionaron para que sus raíces puedan crecer de la forma más plena y efectiva en este medio.
 
-Para este tipo de plantas, si uno desea criarlas fuera  su hábitat natural, es imperativo poder reproducir o por lo menos simular el hábitat en el cual es natural para ellas crecer y florecer, para ello, dos de los factores más importantes que hay que tener en cuenta en el agua que le brindamos a estas plantas son el grado de acidez o alcalinidad (pH le vamos a decir de ahora en más)  y su grado de mineralización  (TDS).
+Para este tipo de plantas, si uno desea criarlas fuera  su hábitat natural, es imperativo poder reproducir o por lo menos simular el hábitat en el cual es natural para ellas crecer y florecer, para ello, dos de los factores más importantes que hay que tener en cuenta en el agua que le brindamos a estas plantas son el grado de acidez o alcalinidad (pH le vamos a decir de ahora en más)  y su grado de mineralización (TDS).
 
 ## Por que es el PH importante para las plantas?
 
@@ -35,7 +35,7 @@ La acidez influye sustancialmente en la capacidad de absorción y solubilidad de
 
 ## Por que es el TDS importante para las plantas?
 
-Los sólidos totales disueltos, también conocidos como TDS, son compuestos inorgánicos que se encuentran en el agua, como sales, metales pesados ​​y algunos rastros de compuestos orgánicos que se disuelven en el agua. Es decir, la cantidad de nutrientes en una solución líquida.
+Los sólidos totales disueltos, también conocidos como TDS, son compuestos inorgánicos que se encuentran en el agua, como sales, metales y algunos rastros de compuestos orgánicos que se disuelven en el agua. Es decir, la cantidad de nutrientes en una solución líquida.
 
 PPM o Partes Por Millón es la unidad que se utiliza para medir el TDS.
 
@@ -45,7 +45,7 @@ PPM o Partes Por Millón es la unidad que se utiliza para medir el TDS.
 
 Ahora, por qué es importante tener en cuenta esta magnitud para las plantas?
 
-Por que si el PPM encontrado en el agua que le suministramos a las plantas es elevado, los sistemas de raíces de las plantas no llegan a poder absorber toda la cantidad de minerales con los que encuentran y se pueden terminar quemando.
+Por que si el PPM encontrado en el agua que le suministramos a las plantas es elevado, los sistemas de raíces de las plantas no van a poder absorber toda la cantidad de minerales con los que encuentran y se pueden terminar quemando.
 Si el PPM es más bajo del ideal para ese tipo de planta, no va a tener suficientes minerales para poder crecer de forma óptima.
 
 
