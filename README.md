@@ -6,38 +6,36 @@
 
 Este es un proyecto de arduino que brinda dos soluciones distintas para poder utilizar y sensar PH y TDS en el agua.
 
-La primera solucion utiliza solo codigo C que es grabado en el firmware del arduino. Esta solucion hace uso de una pantalla lcd para mostrar el sensado de la data.
+La primera solución utiliza solo código C que es grabado en el firmware del arduino. Esta solución hace uso de una pantalla lcd para mostrar el sensado de la data.
 
-La segunda es con  la utilizacion de Johnny-five y electron como container web, lo cual permite poder sensar y ver el resultado del senso en una aplicacion desktop.
+La segunda es con  la utilización de Johnny-five y electron como container web, lo cual permite poder sensar y ver el resultado del senso en una aplicación desktop.
 
-
-# Motivacion
+# Motivación
 
 <p align="center">
   <img src="images/orquideas.jpg" />
 </p>
 
-En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que reciden.
+En la fauna, hay varias plantas que evolucionaron para que sus condiciones de crecimiento ideales esten adaptadas al lugar nativo en el que residen.
 
-Las orquideas, para poner un ejemplo, son plantas que en la naturaleza acostumbran a crecer sobre materia orcanica originada por los restos de otras plantas o organismos. Este tipo de materia organica es altamente acida, y las orquideas evolucionaron para que sus raices puedan crecer de la forma mas plenta y efectiva en este medio.
+Las orquídeas, para poner un ejemplo, son plantas que en la naturaleza acostumbran a crecer sobre materia orgánica originada por los restos de otras plantas o organismos. Este tipo de materia orgánica es altamente ácida, y las orquídeas evolucionaron para que sus raíces puedan crecer de la forma más plena y efectiva en este medio.
 
-Para este tipo de plantas, si uno desea criarlas fuera  su habitat natural, es imperativo poder reproducir o por lo menos simular el habitat en el cual es natural para ellas crecer y florecer, para ello, dos de los factores mas importantes que hay que tener en cuenta en el agua que le brindamos a estas plantas son el grado de acidez o alcainidad (pH le vamos a decir de ahora en mas)  y su grado de mineralizacion  (TDS).
-
+Para este tipo de plantas, si uno desea criarlas fuera  su hábitat natural, es imperativo poder reproducir o por lo menos simular el hábitat en el cual es natural para ellas crecer y florecer, para ello, dos de los factores más importantes que hay que tener en cuenta en el agua que le brindamos a estas plantas son el grado de acidez o alcalinidad (pH le vamos a decir de ahora en más)  y su grado de mineralización  (TDS).
 
 ## Por que es el PH importante para las plantas?
 
-El pH (pondus Hydrogenii) indica la acidez o alcalinidad de una solución liquida. El valor del pH varía, por norma general, entre 0 y 14. Una solución con un valor de pH de 0 a 7 es ácida y una con un valor de 7 a 14 es alcalina. 
+El pH (pondus Hydrogenii) indica la acidez o alcalinidad de una solución líquida. El valor del pH varía, por norma general, entre 0 y 14. Una solución con un valor de pH de 0 a 7 es ácida y una con un valor de 7 a 14 es alcalina. 
 
 <p align="center">
   <img src="images/escala-ph.jpg" />
 </p>
 
-La acidez influye substancialmente en la capacidad de absorción y solubilidad de numerosos elementos nutritivos. No solo eso,  El pH también repercute en el modo en que los elementos nutritivos, metales pesados y pesticidas son eliminados del suelo.
+La acidez influye sustancialmente en la capacidad de absorción y solubilidad de numerosos elementos nutritivos. No solo eso,  El pH también repercute en el modo en que los elementos nutritivos, metales pesados y pesticidas son eliminados del suelo.
 
 
 ## Por que es el TDS importante para las plantas?
 
-Los sólidos totales disueltos, también conocidos como TDS, son compuestos inorgánicos que se encuentran en el agua, como sales, metales pesados ​​y algunos rastros de compuestos orgánicos que se disuelven en el agua. Es decir, la cantidad de nutrientes en una solucion liquida.
+Los sólidos totales disueltos, también conocidos como TDS, son compuestos inorgánicos que se encuentran en el agua, como sales, metales pesados ​​y algunos rastros de compuestos orgánicos que se disuelven en el agua. Es decir, la cantidad de nutrientes en una solución líquida.
 
 PPM o Partes Por Millón es la unidad que se utiliza para medir el TDS.
 
@@ -45,11 +43,10 @@ PPM o Partes Por Millón es la unidad que se utiliza para medir el TDS.
   <img src="images/tabla-tds-agua.jpg" />
 </p>
 
-Ahora, por que es importante tener en cuenta esta magnitud para las plantas?
+Ahora, por qué es importante tener en cuenta esta magnitud para las plantas?
 
-Por que si el PPM encontrado en el agua que le subministramos a las plantas es elevado, los sistemas de raíces de las plantas no llegan a poder absorber toda la cantidad de minerales con los que encuentran y se pueden terminar quemando.
-Si el PPM es mas bajo del ideal para ese tipo de planta, no va a tener suficientes minerales para poder crecer de forma optima.
-
+Por que si el PPM encontrado en el agua que le suministramos a las plantas es elevado, los sistemas de raíces de las plantas no llegan a poder absorber toda la cantidad de minerales con los que encuentran y se pueden terminar quemando.
+Si el PPM es más bajo del ideal para ese tipo de planta, no va a tener suficientes minerales para poder crecer de forma óptima.
 
 
 ## Fuentes
@@ -126,13 +123,13 @@ SCL va conectado en la entrada (A5) del arduino.
 
 - Abrir el IDE de Arduino y subir FirmataStandard como programa al firmware. Para ello Ir a: File> Examples > Firmata > StandardFirmata
 - Una vez con Firmata subido en el arduino, Correr el comando **npm install** parado sobre la carpeta donde se haya descargado el repositorio
-- Una vez instaladas las dependencias, correr la aplicacion con  **npm start** 
+- Una vez instaladas las dependencias, correr la aplicación con  **npm start** 
 
 
 # Posibles Mejoras a futuro y sugerencias
 
-- Idealmente un paso mas adelante seria tambien la uitlizacion de React en el cliente web.
-- Poder Prender o apagar la salida de cualquiera de los dos sensores para que no entren en conflicto si se utilizan en el mismo liquido.
+- Idealmente un paso más adelante sería también la utilización de React en el cliente web.
+- Poder Prender o apagar la salida de cualquiera de los dos sensores para que no entren en conflicto si se utilizan en el mismo líquido.
 
 
 # Materiales Utilizados
