@@ -10,7 +10,7 @@
   },
 
   "dependencies": {
-    "electron": "^1.7.5",
+    "electron": "^18.3.7",
     "johnny-five": "^0.10.13"
   },
   "devDependencies": {
